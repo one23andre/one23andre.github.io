@@ -1,0 +1,276 @@
+baseURL: "https://one23andre.github.io"
+languageCode: "en-us"
+title: "Jimmy Andre Ageng'o"
+theme: hugo-profile
+ 
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+ 
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    contentDir: "content"
+    menu:
+      main:
+        - identifier: about
+          name: About
+          title: About Me
+          url: /#about
+          weight: 1
+        - identifier: experience
+          name: Experience
+          title: Experience
+          url: /#experience
+          weight: 2
+        - identifier: education
+          name: Education
+          title: Education
+          url: /#education
+          weight: 3
+        - identifier: projects
+          name: Projects
+          title: Projects
+          url: /#projects
+          weight: 4
+        - identifier: skills
+          name: Skills
+          title: Skills
+          url: /#skills
+          weight: 5
+        - identifier: contact
+          name: Contact
+          title: Contact Me
+          url: /#contact
+          weight: 6
+ 
+params:
+  title: "Jimmy Andre Ageng'o"
+  description: "Cybersecurity Analyst & Mechanical Engineer — Building Secure Systems from the Ground Up"
+  favicon: "/images/fav.png"
+ 
+  useBootstrapCDN: false
+  animate: true
+ 
+  theme:
+    defaultTheme: "dark"
+ 
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+ 
+  navbar:
+    align: ms-auto
+    brandName: "Jimmy Ageng'o"
+    disableSearch: false
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+ 
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Jimmy Andre Ageng'o."
+    subtitle: "I break systems to make them stronger."
+    content: "A cybersecurity analyst and mechanical engineer with a rare dual-discipline edge. I find vulnerabilities before attackers do, build tools that automate security tasks, and bring an engineer's precision to every problem I solve."
+    image: /images/hero.jpeg
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "Download CV"
+      url: "/files/jimmy-agengo-cv.pdf"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/one23andre
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/jimmy-agengo
+        - icon: fa fa-envelope
+          url: mailto:one23andre@outlook.com
+ 
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/hero.jpeg"
+    content: |-
+      I am Jimmy Andre Ageng'o — a dual-discipline technologist completing a Bachelor of Technology in Mechanical Engineering (Manufacturing) at the Technical University of Kenya and a Cybersecurity program at Moringa School, Nairobi.
+ 
+      My background spans two worlds that are increasingly converging: physical systems and digital security. I have hands-on experience conducting penetration tests, building security automation tools in Python, triaging SOC alerts, and operating CNC machines and lathes in industrial workshops. I bring an engineer's systematic thinking to cybersecurity — methodical, precise, and focused on root causes rather than symptoms.
+ 
+      I am actively pursuing roles in cybersecurity analysis, penetration testing, and industrial/OT security — where my engineering foundation gives me a genuine edge over purely IT-focused candidates.
+    skills:
+      enable: true
+      title: "Core technical skills:"
+      items:
+        - "Kali Linux"
+        - "Nmap & Network Scanning"
+        - "Metasploit Framework"
+        - "Netcat"
+        - "Python (Security Scripting)"
+        - "Burp Suite"
+        - "Wireshark"
+        - "SIEM & SOC Operations"
+        - "NIST CSF 2.0"
+        - "Vulnerability Assessment"
+        - "SolidWorks (CAD)"
+        - "CNC Machining"
+        - "FMEA & Fault Tree Analysis"
+        - "Reliability Engineering"
+        - "Git & GitHub"
+ 
+  experience:
+    enable: true
+    title: "Experience"
+    items:
+      - company: "Technical University of Kenya"
+        companyUrl: "https://www.tukenya.ac.ke"
+        jobs:
+          - name: "CNC Workshop Attachment (Internal)"
+            date: "Year 3 — 2024"
+            content: |
+              Completed internal industrial attachment in the CNC Workshops and Thermodynamics Laboratory at TUK. Gained hands-on experience operating CNC machines, interpreting engineering drawings, and applying thermodynamic principles in a controlled lab environment.
+          - name: "Conventional Workshop Attachment (Internal)"
+            date: "Year 2 — 2023"
+            content: |
+              Completed internal attachment in the conventional workshop, operating lathe machines and performing manual machining operations. Developed precision engineering skills in material removal processes and workpiece measurement.
+ 
+      - company: "Moringa School"
+        companyUrl: "https://moringaschool.com"
+        jobs:
+          - name: "Cybersecurity Student — Capstone Projects"
+            date: "2024 — 2025"
+            content: |
+              Completed a full professional cybersecurity curriculum with distinction. Delivered two major capstone projects: a full-scope penetration test against a Metasploitable 3 environment and a SOC incident response simulation on TryHackMe, achieving 5th place on the leaderboard with 100% true positive accuracy and 1-minute mean time to respond.
+ 
+  education:
+    enable: true
+    title: "Education"
+    items:
+      - title: "Bachelor of Technology — Mechanical Engineering (Manufacturing)"
+        school:
+          name: "Technical University of Kenya (TUK)"
+          url: "https://www.tukenya.ac.ke"
+        date: "2022 — December 2026 (Expected)"
+        content: |-
+          Final Year Project: Design and fabrication of a semi-automated grain milling machine — combining mechanical design, manufacturing processes, and automation principles.
+ 
+          Key coursework includes: Quality Control & Reliability Engineering, FMEA, Fault Tree Analysis, TPM, RCM, Maintenance Engineering, Thermodynamics, and Manufacturing Processes.
+ 
+          Internal Attachments:
+            - CNC Workshops & Thermodynamics Lab (Year 3)
+            - Conventional Workshop with Lathe Operations (Year 2)
+ 
+      - title: "Cybersecurity Program"
+        school:
+          name: "Moringa School, Nairobi"
+          url: "https://moringaschool.com"
+        date: "2025 — July 2026 (Expected)"
+        content: |-
+          Intensive, hands-on cybersecurity program covering penetration testing, SOC operations, network security, Python scripting for security automation, and incident response.
+ 
+          Capstone achievements:
+            - Full penetration test against Metasploitable 3 (Nexums Enterprise simulation)
+            - SOC incident response simulation — 5th place leaderboard, 100% TP accuracy, 1-min MTTR
+            - Python tools (port_scanner.py, web_scanner.py) — both scored 100% on CodeGrade
+ 
+      - title: "Kenya Certificate of Secondary Education (KCSE)"
+        school:
+          name: "Moi Forces Academy"
+          url: "https://example.org"
+        date: "2018 — 2021"
+        content: |-
+          Overall Grade: B Plain
+ 
+          Notable achievement: Grade A in Power Mechanics — demonstrating early aptitude for technical and engineering disciplines that has defined the trajectory of my academic and professional career.
+ 
+  projects:
+    enable: true
+    title: "Projects"
+    items:
+      - title: "Penetration Test — Nexums Enterprise (Metasploitable 3)"
+        content: "Conducted a full-scope black-box penetration test against a simulated enterprise environment. Performed network reconnaissance with Nmap, exploited CVE-2015-3306 via Netcat, probed MySQL services, and delivered a professional pentest report with CVSS scoring and remediation recommendations."
+        image: /images/projects/pentest.png
+        featured:
+          name: "View Report"
+          link: /files/pentest-report.pdf
+        badges:
+          - "Kali Linux"
+          - "Nmap"
+          - "Netcat"
+          - "Metasploit"
+          - "CVE-2015-3306"
+          - "MySQL"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/one23andre
+ 
+      - title: "SOC Incident Response — Phishing Unfolding"
+        content: "Completed a live SOC simulation on TryHackMe's SOC Simulator platform. Triaged 35 alerts, achieved 100% true positive/false positive accuracy, maintained a 1-minute mean time to respond (MTTR), and placed 5th on the leaderboard. Mapped all findings to NIST CSF 2.0 framework."
+        image: /images/projects/soc.png
+        featured:
+          name: "View Report"
+          link: /files/soc-report.pdf
+        badges:
+          - "SIEM"
+          - "TryHackMe"
+          - "NIST CSF 2.0"
+          - "Incident Response"
+          - "IOC Analysis"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/one23andre
+ 
+      - title: "Python Security Tools — Port Scanner & Web Scanner"
+        content: "Built two professional-grade security automation tools from scratch in Python: port_scanner.py for TCP port enumeration and service detection, and web_scanner.py for web application reconnaissance. Both tools scored 100% on CodeGrade automated assessment."
+        image: /images/projects/python.png
+        featured:
+          name: "View on GitHub"
+          link: https://github.com/one23andre
+        badges:
+          - "Python"
+          - "Socket Programming"
+          - "Network Security"
+          - "Automation"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/one23andre
+ 
+      - title: "Semi-Automated Grain Milling Machine"
+        content: "Final year engineering project at TUK. Designed and fabricated a semi-automated grain milling machine incorporating mechanical design principles, manufacturing processes, and basic automation. Produced full engineering drawings in SolidWorks and a comprehensive project report."
+        image: /images/projects/milling.png
+        featured:
+          name: "View Project"
+          link: "#"
+        badges:
+          - "SolidWorks"
+          - "CAD/CAM"
+          - "Manufacturing"
+          - "Mechanical Design"
+          - "Automation"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/one23andre
+ 
+  contact:
+    enable: true
+    title: "Get In Touch"
+    content: "I am actively seeking opportunities in cybersecurity analysis, penetration testing, and roles at the intersection of engineering and digital security. Whether you have a position, a project, or just want to connect — my inbox is open."
+    btnName: "Email Me"
+    btnLink: "mailto:one23andre@outlook.com"
+ 
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+    socialNetworks:
+      github: https://github.com/one23andre
+      linkedin: https://linkedin.com/in/jimmy-agengo
+      email: one23andre@outlook.com
+      
