@@ -139,6 +139,13 @@ params:
             content: |
               Completed internal attachment in the conventional workshop, operating lathe machines and performing manual machining operations. Developed precision engineering skills in material removal processes and workpiece measurement.
  
+      - company: "KenGen — Kenya Electricity Generating Company"
+        companyUrl: "https://www.kengen.co.ke"
+        jobs:
+          - name: "Industrial Attachment — Maintenance Control & Planning"
+            date: "2026"
+            content: |
+              Completed industrial attachment in the Maintenance Control and Planning department at Kenya Electricity Generating Company(KenGen), Kenya's largest electricity generating company. Gained practical exposure to industrial maintenance systems, planned maintenance scheduling, and asset management in a critical power generation environment.
       - company: "Moringa School"
         companyUrl: "https://moringaschool.com"
         jobs:
@@ -155,7 +162,7 @@ params:
         school:
           name: "Technical University of Kenya (TUK)"
           url: "https://www.tukenya.ac.ke"
-        date: "2022 — December 2026 (Expected)"
+        date: "2022 — December 2026 ( Final Year Project Completed, Grade A)"
         content: |-
           Final Year Project: Design and fabrication of a semi-automated grain milling machine — combining mechanical design, manufacturing processes, and automation principles.
  
@@ -169,9 +176,9 @@ params:
         school:
           name: "Moringa School, Nairobi"
           url: "https://moringaschool.com"
-        date: "2025 — July 2026 (Expected)"
+        date: "2026"
         content: |-
-          Intensive, hands-on cybersecurity program covering penetration testing, SOC operations, network security, Python scripting for security automation, and incident response.
+          Intensive, hands-on cybersecurity program covering penetration testing, SOC operations, network security, Python scripting for security automation, and incident response. Graduated July 2026.
  
           Capstone achievements:
             - Full penetration test against Metasploitable 3 (Nexums Enterprise simulation)
@@ -245,7 +252,7 @@ params:
         image: /images/projects/milling.png
         featured:
           name: "View Project"
-          link: "#"
+          link: /files/milling-report.pdf
         badges:
           - "SolidWorks"
           - "CAD/CAM"
@@ -256,12 +263,12 @@ params:
           - icon: fab fa-github
             url: https://github.com/one23andre
  
-  contact:
-    enable: true
-    title: "Get In Touch"
-    content: "I am actively seeking opportunities in cybersecurity analysis, penetration testing, and roles at the intersection of engineering and digital security. Whether you have a position, a project, or just want to connect — my inbox is open."
-    btnName: "Email Me"
-    btnLink: "mailto:one23andre@outlook.com"
+    contact:
+      enable: true
+      title: "Get In Touch"
+      content: "I am actively seeking opportunities in cybersecurity analysis, penetration testing, and roles at the intersection of engineering and digital security. Whether you have a position, a project, or just want to connect — my inbox is open."
+      btnName: "Email Me"
+      btnLink: "mailto:one23andre@outlook.com"    
  
   footer:
     recentPosts:
